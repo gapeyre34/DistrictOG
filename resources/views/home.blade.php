@@ -12,6 +12,7 @@
     <link href="{{asset("css/bootstrap.min.css")}}" rel="stylesheet">
 
     <!-- Favicons -->
+    <script src="https://kit.fontawesome.com/d0fa3504c1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="{{asset("imgs/favicon.png")}}" sizes="180x180">
     <meta name="theme-color" content="#7952b3">
 
@@ -64,8 +65,38 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Panier</a>
+                </li>
+            </ul>
         </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-red">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pulls</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">T-shirts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sneakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vestes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accessoires</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 
 <main>
@@ -74,7 +105,7 @@
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">DistrictOG Store</h1>
-                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                <p class="lead text-muted">Découvrez l'univers de DistrictOG, un univers venant de tous les horizons. Trouvez votre bonheur sans plus tarder !</p>
                 <p>
                     <a href="#" class="btn btn-primary my-2">Main call to action</a>
                     <a href="#" class="btn btn-secondary my-2">Secondary action</a>
@@ -92,8 +123,7 @@
         <p class="float-end mb-1">
             <a href="#">Back to top</a>
         </p>
-        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
+        <p>DistrictOG</p>
     </div>
 </footer>
 
