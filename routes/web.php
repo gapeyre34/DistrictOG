@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', "App\\Http\\Controllers\\Shop\\MainController@index");
+Route::get('/produit', "App\\Http\\Controllers\\Shop\\MainController@produit");

@@ -37,37 +37,23 @@
 
 
 </head>
+
 <body>
 
 @include('layouts.header')
 
-<main>
+@yield('content')
 
-    <section class="py-5 text-center bg-secondary bg-opacity-10 m-0">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">DistrictOG Store</h1>
-                <p class="lead text-muted">Découvrez l'univers de DistrictOG, un univers venant de tous les horizons. Trouvez votre bonheur sans plus tarder !</p>
-            </div>
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <p>DistrictOG</p>
         </div>
-    </section>
+    </footer>
 
-    @yield('content')
-
-</main>
-
-<footer class="text-muted py-5">
-    <div class="container">
-        <p class="float-end mb-1">
-            <a href="#">Back to top</a>
-        </p>
-        <p>DistrictOG</p>
-    </div>
-</footer>
-
-
-<script src="{{asset("/js/bootstrap.bundle.min.js")}}"></script>
-
-
+    <script src="{{asset("/js/bootstrap.bundle.min.js")}}"></script>
 </body>
+
 </html>

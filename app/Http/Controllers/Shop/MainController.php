@@ -19,4 +19,8 @@ class MainController extends Controller
 
         return view('shop.index', compact('produits')); //compact() permet de "passer" la variable a la vue
     }
+
+    public function produit() {
+        return view('shop.produit');
+    }
 }
