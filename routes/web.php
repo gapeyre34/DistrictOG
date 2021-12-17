@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', "App\\Http\\Controllers\\Shop\\MainController@index");
-Route::get('/produit', "App\\Http\\Controllers\\Shop\\MainController@produit");
+Route::get('/', "App\\Http\\Controllers\\Shop\\MainController@index")->name('home');
+Route::get('/produit/{id}', "App\\Http\\Controllers\\Shop\\MainController@produit")->name('voir_produit');

@@ -19,7 +19,7 @@
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center w-25">
+            <a href="{{route('home')}}" class="navbar-brand d-flex align-items-center w-25">
                 <img class="bg-white bg-opacity-25 rounded-3" height="40" src="{{asset('imgs/pied-piper-square-brands.svg')}}" alt="">
                 <strong class="mx-3">DistrictOG</strong>
             </a>
