@@ -1,13 +1,15 @@
 @extends('shop')
 
 @section('content')
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Accueil</a></li>
-            <li class="breadcrumb-item"><a href="#">Pulls</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Pull bleu en laine</li>
-        </ol>
-    </nav>
+    <div class="bg-secondary bg-opacity-10 px-2">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item"><a href="#">Pulls</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Pull bleu en laine</li>
+            </ol>
+        </nav>
+    </div>
     <main role="main">
 
 
@@ -25,7 +27,7 @@
                 <div class="col-6">
 
                     <h1 class="jumbotron-heading">{{$produit->nom}}</h1>
-                    <h5>29.00 €</h5>
+                    <h5>{{number_format($produit->prix_ht, 2)}} €</h5>
                     <p class="lead text-muted">{{$produit->description}}</p>
                     <hr>
                     <label for="size">Choisissez votre taille</label>
